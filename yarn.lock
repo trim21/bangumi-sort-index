@@ -21,7 +21,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.15.0.tgz#2dbaf8b85334796cafbb0f5793a90a2fc010b176"
   integrity sha512-0NqAC1IJE0S0+lL1SWFMxMkz1pKCNCjI4tr2Zx4LJSXxCLAdr6KyArnY+sno5m3yH9g737ygOyPABDsnXkpxiA==
 
-"@babel/core@^7.1.0", "@babel/core@^7.15.5", "@babel/core@^7.7.2", "@babel/core@^7.7.5":
+"@babel/core@7.15.5", "@babel/core@^7.1.0", "@babel/core@^7.7.2", "@babel/core@^7.7.5":
   version "7.15.5"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.15.5.tgz#f8ed9ace730722544609f90c9bb49162dc3bf5b9"
   integrity sha512-pYgXxiwAgQpgM1bNkZsDEq85f0ggXMA5L7c+o3tskGMh2BunCI9QUwB9Z4jpvXUOuMdyGKiGKQiRe11VS6Jzvg==
@@ -781,7 +781,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/preset-env@^7.15.6":
+"@babel/preset-env@7.15.6":
   version "7.15.6"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.15.6.tgz#0f3898db9d63d320f21b17380d8462779de57659"
   integrity sha512-L+6jcGn7EWu7zqaO2uoTDjjMBW+88FXzV8KvrBl2z6MtRNxlsmUNRlZPaNNPUTgqhyC5DHNFk/2Jmra+ublZWw==
@@ -871,7 +871,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/preset-typescript@^7.15.0":
+"@babel/preset-typescript@7.15.0":
   version "7.15.0"
   resolved "https://registry.yarnpkg.com/@babel/preset-typescript/-/preset-typescript-7.15.0.tgz#e8fca638a1a0f64f14e1119f7fe4500277840945"
   integrity sha512-lt0Y/8V3y06Wq/8H/u0WakrqciZ7Fz7mwPDHWUJAXlABL5hiUG42BNlRXiELNjeWjO5rWmnNKlx+yzJvxezHow==
@@ -1273,7 +1273,7 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^27.0.2":
+"@types/jest@27.0.2":
   version "27.0.2"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-27.0.2.tgz#ac383c4d4aaddd29bbf2b916d8d105c304a5fcd7"
   integrity sha512-4dRxkS/AFX0c5XW6IPMNOydLn2tEhNhJV7DnYK+0bjoJZ+QTmfucBlihX7aoEsh/ocYtkLC73UbnBXBXIxsULA==
@@ -1786,7 +1786,7 @@ babel-jest@^27.2.1:
     graceful-fs "^4.2.4"
     slash "^3.0.0"
 
-babel-loader@^8.2.2:
+babel-loader@8.2.2:
   version "8.2.2"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.2.2.tgz#9363ce84c10c9a40e6c753748e1441b60c8a0b81"
   integrity sha512-JvTd0/D889PQBtUXJ2PXaKU/pjZDMtHA9V2ecm+eNRmmBCMR09a+fmpGTNwnJtFmFl5Ei7Vy47LjBb+L0wQ99g==
@@ -2332,10 +2332,10 @@ emojis-list@^3.0.0:
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
   integrity sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==
 
-enhanced-resolve@^5.8.0:
-  version "5.8.2"
-  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.8.2.tgz#15ddc779345cbb73e97c611cd00c01c1e7bf4d8b"
-  integrity sha512-F27oB3WuHDzvR2DOGNTaYy0D5o0cnrv8TeI482VM4kYgQd/FT9lUQwuNsJ0oOHtBUq7eiW5ytqzp7nBFknL+GA==
+enhanced-resolve@^5.8.3:
+  version "5.8.3"
+  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.8.3.tgz#6d552d465cce0423f5b3d718511ea53826a7b2f0"
+  integrity sha512-EGAbGvH7j7Xt2nc0E7D99La1OiEs8LnyimkRgwExpUMScN6O+3x9tIWs7PLQZVNx4YD+00skHXPXi1yQHpAmZA==
   dependencies:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
@@ -2390,10 +2390,10 @@ es-abstract@^1.18.0-next.1, es-abstract@^1.18.0-next.2, es-abstract@^1.18.2:
     string.prototype.trimstart "^1.0.4"
     unbox-primitive "^1.0.1"
 
-es-module-lexer@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/es-module-lexer/-/es-module-lexer-0.7.1.tgz#c2c8e0f46f2df06274cdaf0dd3f3b33e0a0b267d"
-  integrity sha512-MgtWFl5No+4S3TmhDmCz2ObFGm6lEpTnzbQi+Dd+pw4mlTIZTmM2iAs5gRlmx5zS9luzobCSBSI90JM/1/JgOw==
+es-module-lexer@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/es-module-lexer/-/es-module-lexer-0.9.0.tgz#fe4c4621977bc668e285c5f1f70ca3b451095fda"
+  integrity sha512-qU2eN/XHsrl3E4y7mK1wdWnyy5c8gXtCbfP6Xcsemm7fPUR1PIV1JhZfP7ojcN0Fzp69CfrS3u76h2tusvfKiQ==
 
 es-to-primitive@^1.2.1:
   version "1.2.1"
@@ -3665,7 +3665,7 @@ jest-worker@^27.0.6, jest-worker@^27.2.0:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jest@^27.2.1:
+jest@27.2.1:
   version "27.2.1"
   resolved "https://registry.yarnpkg.com/jest/-/jest-27.2.1.tgz#9263102056fe152fd2478d181cf9bbbd2a6a8da4"
   integrity sha512-0MyvNS7J1HbkeotYaqKNGioN+p1/AAPtI1Z8iwMtCBE+PwBT+M4l25D9Pve8/KdhktYLgZaGyyj9CoDytD+R2Q==
@@ -4396,7 +4396,7 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier@^2.4.1:
+prettier@2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
   integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
@@ -4461,7 +4461,7 @@ raw-body@~1.1.0:
     bytes "1"
     string_decoder "0.10"
 
-raw-loader@^4.0.2:
+raw-loader@4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/raw-loader/-/raw-loader-4.0.2.tgz#1aac6b7d1ad1501e66efdac1522c73e59a584eb6"
   integrity sha512-ZnScIV3ag9A4wPX/ZayxL/jZH+euYb6FcUinPcgiQW0+UBtEv0O6Q3lGd3cqJ+GHH+rksEv3Pj99oxJ3u3VIKA==
@@ -5325,10 +5325,10 @@ webpack-sources@^3.2.0:
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.1.tgz#251a7d9720d75ada1469ca07dbb62f3641a05b6d"
   integrity sha512-t6BMVLQ0AkjBOoRTZgqrWm7xbXMBzD+XDq2EZ96+vMfn3qKgsvdXZhbPZ4ElUOpdv4u+iiGe+w3+J75iy/bYGA==
 
-webpack@5.53.0:
-  version "5.53.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.53.0.tgz#f463cd9c6fc1356ae4b9b7ac911fd1f5b2df86af"
-  integrity sha512-RZ1Z3z3ni44snoWjfWeHFyzvd9HMVYDYC5VXmlYUT6NWgEOWdCNpad5Fve2CzzHoRED7WtsKe+FCyP5Vk4pWiQ==
+webpack@5.54.0:
+  version "5.54.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.54.0.tgz#629f0cd14c7a4340af758a3c7cef25c50670ae4d"
+  integrity sha512-MAVKJMsIUotOQKzFOmN8ZkmMlj7BOyjDU6t1lomW9dWOme5WTStzGa3HMLdV1KYD1AiFETGsznL4LMSvj4tukw==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.50"
@@ -5339,8 +5339,8 @@ webpack@5.53.0:
     acorn-import-assertions "^1.7.6"
     browserslist "^4.14.5"
     chrome-trace-event "^1.0.2"
-    enhanced-resolve "^5.8.0"
-    es-module-lexer "^0.7.1"
+    enhanced-resolve "^5.8.3"
+    es-module-lexer "^0.9.0"
     eslint-scope "5.1.1"
     events "^3.2.0"
     glob-to-regexp "^0.4.1"
