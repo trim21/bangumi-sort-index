@@ -3,7 +3,7 @@
 // @name:zh       排序首页条目
 // @namespace     https://trim21.me/
 // @description   Sort subjects on index page
-// @version       0.0.3
+// @version       0.0.4
 // @author        Trim21 <i@trim21.me>
 // @source        https://github.com/Trim21/bangumi-sort-index
 // @supportURL    https://github.com/Trim21/bangumi-sort-index/issues
@@ -22,7 +22,7 @@ var __webpack_exports__ = {};
 ;// CONCATENATED MODULE: external "$"
 var external_$_namespaceObject = $;
 ;// CONCATENATED MODULE: ./src/style.css
-/* harmony default export */ var style = ("#prgManagerHeader ul#prgManagerOrder li a span {\n}\n\n#prgManagerHeader ul#prgManagerOrder li a.focus span {\n  filter: invert();\n}\n\n/* https://www.flaticon.com/free-icons/sort */\n\n#prgManagerHeader ul#prgManagerOrder li a#switchSmartOrder span {\n  /* https://icons8.com/icon/69918/sort-by-recently-viewed */\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKaSURBVGhD7dlLyExhHMfxcS2KolxzS5SFpNwtWBAKZaVkI0VZocRCoiQrKynKQiyssLF0CRsJWdkQSRayQIhy/f6m+ff+Oz3nvPM+zTznHJ1ffXqb55xnen5zzsycM2+rSZMmTf6rrMYujGk/KidrsR0j2o8isgJ/8BdXNVBCtsDWcEoDMdkHPYG81kAJ0eJtDfc0EBNf5I0GIjIeczAJMafGadgaHmggJjFFtNhNuIL3sPnyDXexFxPRTUopsg7PYXOKfMFhjEZRkhbRUTgH23conmAG8pKsiF7Rm7D9jD5prmMbFkMfoVqUjkR233dYiFCSFNGRuAbbx/zCDoQyFy+QnfMWoSOTpMhR2HbvOIqyCD+RnfcI2fdM34voVAgt5gfGwTIbKrah/WggN5CdK8fg0/cioVNK9Kr6PIXGdbot0EAnh5CdK9+h7x5L34vcgm3zHsLnFWzbMg10cgB+nvmNybD0vYi+M2yb9wmjYFkFfXodbD8ayCWE5l+AT5I3+0XYdm83ijIdX5Gdp+u5CfBJUmQsdCrZPkZHZSlC0QfBfWTn6PLFn3qWJEUUXQyGLku0sBOYh2HQK70TL5HdV2/wjQglWRFFi8x78w9GF5Z6H+UlaRFlJPZDp5XNKaJLmMuYiqIkL2KZAn1HPIPN9XQEzmIJuklpRXz0fbAGW7Ee8zEcQ0klivQiTRGfpkgP0xTxaYr0MD0psgf2JB9xpAT6HczWcBtRWQl7kio4g+jk3Vun9gHTEB3d7ekQ38HjCH4x+hkotE8R3e+cx0yUGl9kswbqmqZI1VLLIsuh+w7PF9FPrNnt+gGjctE/Tru91ZWTqGy6LVPpEpbBytSihCWvTK1KWFTmM2pdwmJlal3CMqvzt49ptf4B0C4sGC5Wg58AAAAASUVORK5CYII=)\n    no-repeat top;\n  background-size: 20px 20px;\n}\n\n#prgManagerHeader ul#prgManagerOrder li a#switchNormalOrder span {\n  /* https://icons8.com/icon/69920/sort-by-modified-date */\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHySURBVGhD7Zg9LwRBHIcPkSA6lXj5DApv0VBQ0ZLoNAoRnUQhKhGJRCQqjVqhEJ0GEY3CN1AIrQIlEfx+e/tPJnP7cju3tzN7mSd5snbudrLP7U1uV8Xj8Xhaiim4AruDPTtMwyXYEewZMAF/4R8844AFFqCcwx4HTFiDnIA+cyAneuERvIL8pJPgycs53HHABDXkhQM5wIh7KPPy096AcexDeS+PM6IZIXPwB8q8NCnG2RCyCKNiZqCOUyH8Om3CtmCvSlTMDtRxJkRdE6cwLobbUajjRIi+sGlUzBdcDvZqsR4SFSHqMQPhNgqrIUkRoh4Th7WQeiIo1wRvf9KwEpIlIm5N6BQewhu6WyjvjzNLBLFyRfrgJZRjdLNGEGtrZBXKMaomEcRayAj8hnIcNY0g1kJIFxyD57CRCFJYCK/AevXPGhjTSAQpLOQA8s41LqZRCglph6+QrzMm7WnPhEJCBiEfgY/hJAeagNXFnic+RMWH5IgPUWmZEPUG8B1uWVB9NLiGRvC3QSZxwUNozAWMmrRo32A/NKYT8hLfwEcD1ZN5Csey+ABP4BC0ihoyz4Gy4kNco5Qh43BWUw3ZDsdUe6Bz8D+HH1A9+SR3obPUG+N0hJAWU4oIIS6mVBECYz5hqSMEiSl1hDAcbptIpfIPemrPlazYnP4AAAAASUVORK5CYII=)\n    no-repeat top;\n  background-size: 20px 20px;\n}\n\n#prgManagerHeader ul#prgManagerOrder li a#switchUpdateOrder span {\n  /* https://icons8.com/icon/69917/sort-by-follow-up-date */\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVGhD7Zm7SkNBFEUviPgCrRW08htUbGzstLYTbBQsxDKFpYhY2PsHln6BithY2CtYiCBYCD5+QN073gNDuI/JGO+cE2bBIrkn4TCLJJCQLJFIJPqKRbgBR9pXcViCa3CgfRXAPPyC3/CUgwisQjnDAQchbEMuoI8cRICHlzNccRCCG/LEQQQOoZzhmoMQUkgFQ3Dq964XakMm4D30jVEdwn2+MepDqE+MiRBaF2MmhDJmEhZhKoSWxTQWcgSf4Zun71B2dloU00jILJTHe+UdHIZCIyFj8AXKc/4qvxzuQJfG3lp8K6zDLU93oex0LYogpj7sZRHETEhVBDERUhdB1If4RBDVIb4RRG3IOPSNIGpDuiWFuKSQHpJCXPomZBPKEv6OaEXwEsoZzmEQC1CWaPAYBnMGi5Y27Sss+13vxSDkS3wBbwN0D/OQz7rxBp7AaRgVN2SFA6ukEG2YDJmDyx26IXv5zHUUqoN/nH5A9/BV7kO1+MaojhDqYkxECGUxpiIExnxC0xGCxJiOEGby238ky34AfSvPiU4PspwAAAAASUVORK5CYII=)\n    no-repeat top;\n  background-size: 20px 20px;\n}\n\n#prgManagerHeader ul#prgManagerOrder li a span {\n  display: block;\n  text-indent: -9999px;\n  height: 18px;\n  width: 20px;\n}\n");
+/* harmony default export */ var style = ("#prgManagerHeader ul#prgManagerOrder li a span {\n}\n\n#prgManagerHeader ul#prgManagerOrder li a.focus span {\n  filter: invert();\n}\n\n/* https://www.flaticon.com/free-icons/sort */\n\n#prgManagerHeader ul#prgManagerOrder li a#switchSmartOrder span {\n  /* https://icons8.com/icon/69918/sort-by-recently-viewed */\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKaSURBVGhD7dlLyExhHMfxcS2KolxzS5SFpNwtWBAKZaVkI0VZocRCoiQrKynKQiyssLF0CRsJWdkQSRayQIhy/f6m+ff+Oz3nvPM+zTznHJ1ffXqb55xnen5zzsycM2+rSZMmTf6rrMYujGk/KidrsR0j2o8isgJ/8BdXNVBCtsDWcEoDMdkHPYG81kAJ0eJtDfc0EBNf5I0GIjIeczAJMafGadgaHmggJjFFtNhNuIL3sPnyDXexFxPRTUopsg7PYXOKfMFhjEZRkhbRUTgH23conmAG8pKsiF7Rm7D9jD5prmMbFkMfoVqUjkR233dYiFCSFNGRuAbbx/zCDoQyFy+QnfMWoSOTpMhR2HbvOIqyCD+RnfcI2fdM34voVAgt5gfGwTIbKrah/WggN5CdK8fg0/cioVNK9Kr6PIXGdbot0EAnh5CdK9+h7x5L34vcgm3zHsLnFWzbMg10cgB+nvmNybD0vYi+M2yb9wmjYFkFfXodbD8ayCWE5l+AT5I3+0XYdm83ijIdX5Gdp+u5CfBJUmQsdCrZPkZHZSlC0QfBfWTn6PLFn3qWJEUUXQyGLku0sBOYh2HQK70TL5HdV2/wjQglWRFFi8x78w9GF5Z6H+UlaRFlJPZDp5XNKaJLmMuYiqIkL2KZAn1HPIPN9XQEzmIJuklpRXz0fbAGW7Ee8zEcQ0klivQiTRGfpkgP0xTxaYr0MD0psgf2JB9xpAT6HczWcBtRWQl7kio4g+jk3Vun9gHTEB3d7ekQ38HjCH4x+hkotE8R3e+cx0yUGl9kswbqmqZI1VLLIsuh+w7PF9FPrNnt+gGjctE/Tru91ZWTqGy6LVPpEpbBytSihCWvTK1KWFTmM2pdwmJlal3CMqvzt49ptf4B0C4sGC5Wg58AAAAASUVORK5CYII=)\n    no-repeat top;\n  background-size: 20px 20px;\n}\n\n#prgManagerHeader ul#prgManagerOrder li a#switchNormalOrder span {\n  /* https://icons8.com/icon/69920/sort-by-modified-date */\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHySURBVGhD7Zg9LwRBHIcPkSA6lXj5DApv0VBQ0ZLoNAoRnUQhKhGJRCQqjVqhEJ0GEY3CN1AIrQIlEfx+e/tPJnP7cju3tzN7mSd5snbudrLP7U1uV8Xj8Xhaiim4AruDPTtMwyXYEewZMAF/4R8844AFFqCcwx4HTFiDnIA+cyAneuERvIL8pJPgycs53HHABDXkhQM5wIh7KPPy096AcexDeS+PM6IZIXPwB8q8NCnG2RCyCKNiZqCOUyH8Om3CtmCvSlTMDtRxJkRdE6cwLobbUajjRIi+sGlUzBdcDvZqsR4SFSHqMQPhNgqrIUkRoh4Th7WQeiIo1wRvf9KwEpIlIm5N6BQewhu6WyjvjzNLBLFyRfrgJZRjdLNGEGtrZBXKMaomEcRayAj8hnIcNY0g1kJIFxyD57CRCFJYCK/AevXPGhjTSAQpLOQA8s41LqZRCglph6+QrzMm7WnPhEJCBiEfgY/hJAeagNXFnic+RMWH5IgPUWmZEPUG8B1uWVB9NLiGRvC3QSZxwUNozAWMmrRo32A/NKYT8hLfwEcD1ZN5Csey+ABP4BC0ihoyz4Gy4kNco5Qh43BWUw3ZDsdUe6Bz8D+HH1A9+SR3obPUG+N0hJAWU4oIIS6mVBECYz5hqSMEiSl1hDAcbptIpfIPemrPlazYnP4AAAAASUVORK5CYII=)\n    no-repeat top;\n  background-size: 20px 20px;\n}\n\n#prgManagerHeader ul#prgManagerOrder li a span {\n  display: block;\n  text-indent: -9999px;\n  height: 18px;\n  width: 20px;\n}\n");
 ;// CONCATENATED MODULE: ./src/index.ts
 
 
@@ -45,17 +45,7 @@ function bangumiSortIndex() {
         this.nextDate = 0;
       }
 
-      const lastWatched = el.find('li a:not(.epBtnWatched)').last();
-      const lastWatchedRel = lastWatched.attr('rel');
-
-      if (lastWatchedRel) {
-        this.lastWatched = getDate(lastWatchedRel);
-      } else {
-        this.lastWatched = 0;
-      }
-
       this.airing = el.find('li a.epBtnNA').length !== 0 ? -1 : 1;
-      this.smartKey = this.airing;
     }
 
   }
@@ -107,22 +97,15 @@ function bangumiSortIndex() {
     render(subjects);
   }
 
-  function update(subjects) {
-    subjects.sort((a, b) => -a.lastWatched + b.lastWatched);
-    render(subjects);
-  }
-
   function normal() {
     render(originals);
   }
 
   function onLoad() {
-    // prgManagerMain.classList.contains('tinyModeWrapper')
     const orderUI = external_$_namespaceObject(`<ul id='prgManagerOrder' class='categoryTab clearit rr'>
 
 <li data-mode='normal'><a href='javascript:void(0);' id='switchNormalOrder' title='修改順序'><span>標準</span></a></li>
 <li data-mode='smart' ><a href='javascript:void(0);' id='switchSmartOrder'  title='智障順序'><span>智能</span></a></li>
-<li data-mode='update'><a href='javascript:void(0);' id='switchUpdateOrder' title='更新順序'><span>更新</span></a></li>
 
 </ul>`);
     external_$_namespaceObject('#prgManagerHeader').append(orderUI[0]);
@@ -148,10 +131,6 @@ function bangumiSortIndex() {
       switch (mode) {
         case 'smart':
           smart(subjects);
-          break;
-
-        case 'update':
-          update(subjects);
           break;
 
         case 'normal':
