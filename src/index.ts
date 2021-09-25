@@ -6,16 +6,14 @@ GM_addStyle(style);
 
 const castKeyword = '首播';
 const configKey = 'index-sort-order';
-type Mode = 'normal' | 'smart' | 'update';
+type Mode = 'normal' | 'smart';
 
 function bangumiSortIndex(): void {
   class Subject {
     el: JQuery<Element>;
     nextDate: number;
-    lastWatched: number;
     title: string;
     airing: number;
-    smartKey: number;
 
     constructor(el: JQuery<Element>) {
       this.el = el;
@@ -35,16 +33,7 @@ function bangumiSortIndex(): void {
         this.nextDate = 0;
       }
 
-      const lastWatched = el.find('li a:not(.epBtnWatched)').last();
-      const lastWatchedRel = lastWatched.attr('rel');
-      if (lastWatchedRel) {
-        this.lastWatched = getDate(lastWatchedRel);
-      } else {
-        this.lastWatched = 0;
-      }
-
       this.airing = el.find('li a.epBtnNA').length !== 0 ? -1 : 1;
-      this.smartKey = this.airing;
     }
   }
 
@@ -100,23 +89,15 @@ function bangumiSortIndex(): void {
     render(subjects);
   }
 
-  // function update(subjects: Subject[]): void {
-  //   subjects.sort((a, b) => -a.lastWatched + b.lastWatched);
-  //   render(subjects);
-  // }
-
   function normal(): void {
     render(originals);
   }
 
   function onLoad(): void {
-    // prgManagerMain.classList.contains('tinyModeWrapper')
-
     const orderUI = $(`<ul id='prgManagerOrder' class='categoryTab clearit rr'>
 
 <li data-mode='normal'><a href='javascript:void(0);' id='switchNormalOrder' title='修改順序'><span>標準</span></a></li>
 <li data-mode='smart' ><a href='javascript:void(0);' id='switchSmartOrder'  title='智障順序'><span>智能</span></a></li>
-<!--<li data-mode='update'><a href='javascript:void(0);' id='switchUpdateOrder' title='更新順序'><span>更新</span></a></li>-->
 
 </ul>`);
 
@@ -144,9 +125,6 @@ function bangumiSortIndex(): void {
         case 'smart':
           smart(subjects);
           break;
-        // case 'update':
-        //   update(subjects);
-        //   break;
         case 'normal':
           normal();
           break;
