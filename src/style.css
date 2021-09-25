@@ -21,13 +21,6 @@
   background-size: 20px 20px;
 }
 
-#prgManagerHeader ul#prgManagerOrder li a#switchUpdateOrder span {
-  /* https://icons8.com/icon/69917/sort-by-follow-up-date */
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVGhD7Zm7SkNBFEUviPgCrRW08htUbGzstLYTbBQsxDKFpYhY2PsHln6BithY2CtYiCBYCD5+QN073gNDuI/JGO+cE2bBIrkn4TCLJJCQLJFIJPqKRbgBR9pXcViCa3CgfRXAPPyC3/CUgwisQjnDAQchbEMuoI8cRICHlzNccRCCG/LEQQQOoZzhmoMQUkgFQ3Dq964XakMm4D30jVEdwn2+MepDqE+MiRBaF2MmhDJmEhZhKoSWxTQWcgSf4Zun71B2dloU00jILJTHe+UdHIZCIyFj8AXKc/4qvxzuQJfG3lp8K6zDLU93oex0LYogpj7sZRHETEhVBDERUhdB1If4RBDVIb4RRG3IOPSNIGpDuiWFuKSQHpJCXPomZBPKEv6OaEXwEsoZzmEQC1CWaPAYBnMGi5Y27Sss+13vxSDkS3wBbwN0D/OQz7rxBp7AaRgVN2SFA6ukEG2YDJmDyx26IXv5zHUUqoN/nH5A9/BV7kO1+MaojhDqYkxECGUxpiIExnxC0xGCxJiOEGby238ky34AfSvPiU4PspwAAAAASUVORK5CYII=)
-    no-repeat top;
-  background-size: 20px 20px;
-}
-
 #prgManagerHeader ul#prgManagerOrder li a span {
   display: block;
   text-indent: -9999px;
