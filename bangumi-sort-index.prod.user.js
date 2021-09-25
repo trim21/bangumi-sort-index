@@ -1,18 +1,17 @@
 // ==UserScript==
-// @name         bangumi-sort-index
-// @name:zh      排序首页条目
-// @namespace    https://trim21.me/
-// @version      0.0.2
-// @author       Trim21 <i@trim21.me>
-// @source       https://github.com/Trim21/bangumi-sort-index
-// @supportURL   https://github.com/Trim21/bangumi-sort-index/issues
-// @license      MIT
-// @include      /^https://(bangumi\.tv|bgm\.tv|chii\.in)/[^/]*/
-// @require      https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js
-// @connect      bgm.tv
-// @connect      bangumi.tv
-// @run-at       document-end
-// @grant        GM_addStyle
+// @name          bangumi-sort-index
+// @name:zh       排序首页条目
+// @namespace     https://trim21.me/
+// @description   Sort subjects on index page
+// @version       0.0.3
+// @author        Trim21 <i@trim21.me>
+// @source        https://github.com/Trim21/bangumi-sort-index
+// @supportURL    https://github.com/Trim21/bangumi-sort-index/issues
+// @license       MIT
+// @include       /^https://(bangumi\.tv|bgm\.tv|chii\.in)/[^/]*/
+// @require       https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js
+// @run-at        document-end
+// @grant         GM_addStyle
 // ==/UserScript==
 
 
