@@ -3,7 +3,7 @@
 // @name:zh       排序首页条目
 // @namespace     https://trim21.me/
 // @description   Sort subjects on index page
-// @version       0.0.5
+// @version       0.0.6
 // @author        Trim21 <i@trim21.me>
 // @source        https://github.com/Trim21/bangumi-sort-index
 // @supportURL    https://github.com/Trim21/bangumi-sort-index/issues
