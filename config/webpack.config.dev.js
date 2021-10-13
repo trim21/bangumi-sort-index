@@ -11,9 +11,7 @@ const output = {
   filename: metadata.name + '.prod.user.js',
 };
 
-metadata.require.push(
-  'file://' + path.resolve(__dirname, '../dist', output.filename)
-);
+metadata.require.push('file://' + path.resolve(__dirname, '../dist', output.filename));
 
 const cfg = merge(webpackConfig, {
   mode: 'development',

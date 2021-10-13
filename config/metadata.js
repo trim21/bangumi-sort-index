@@ -1,11 +1,4 @@
-const {
-  author,
-  description,
-  dependencies,
-  name,
-  repository,
-  version,
-} = require('../package.json');
+const { author, description, dependencies, name, repository, version } = require('../package.json');
 
 module.exports = {
   name: name,
@@ -18,9 +11,7 @@ module.exports = {
   supportURL: repository.url + '/issues',
   license: 'MIT',
   include: String.raw`/^https://(bangumi\.tv|bgm\.tv|chii\.in)/[^/]*/`,
-  require: [
-    `https://cdn.jsdelivr.net/npm/jquery@${dependencies.jquery}/dist/jquery.min.js`,
-  ],
+  require: [`https://cdn.jsdelivr.net/npm/jquery@${dependencies.jquery}/dist/jquery.min.js`],
   'run-at': 'document-end',
   grant: 'GM_addStyle',
 };

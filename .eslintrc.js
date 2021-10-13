@@ -81,13 +81,7 @@ module.exports = {
       'error',
       {
         'newlines-between': 'always',
-        groups: [
-          'builtin',
-          'external',
-          ['index', 'sibling', 'parent'],
-          'internal',
-          'object',
-        ],
+        groups: ['builtin', 'external', ['index', 'sibling', 'parent'], 'internal', 'object'],
       },
     ],
   },

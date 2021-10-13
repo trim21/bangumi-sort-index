@@ -33,15 +33,13 @@ function bangumiSortIndex(): void {
         this.nextDate = 0;
       }
 
-      this.airing = el.find('li a.epBtnNA').length !== 0 ? -1 : 1;
+      this.airing = el.find('li a.epBtnNA, li a.epBtnToday').length !== 0 ? -1 : 1;
     }
   }
 
   const container = $('#cloumnSubjectInfo .infoWrapper_tv');
 
-  const originals: Subject[] = Array.from(
-    $('.infoWrapper_tv [id^=subjectPanel_]')
-  ).map((element) => {
+  const originals: Subject[] = Array.from($('.infoWrapper_tv [id^=subjectPanel_]')).map((element) => {
     return new Subject($(element));
   });
 
@@ -49,8 +47,7 @@ function bangumiSortIndex(): void {
 
   function getDate(rel: string): number {
     const castDate = Array.from(
-      document.querySelector(rel)?.querySelector('span.tip')?.childNodes ??
-        ([] as Element[])
+      document.querySelector(rel)?.querySelector('span.tip')?.childNodes ?? ([] as ChildNode[])
     )
       .filter((e) => e.nodeType === Node.TEXT_NODE)
       .map((e) => e.textContent ?? '')
@@ -109,8 +106,7 @@ function bangumiSortIndex(): void {
 
     const optionUIs = orderUI.find('li');
 
-    let mode: Mode =
-      (localStorage.getItem(configKey) as Mode | undefined) ?? 'normal';
+    let mode: Mode = (localStorage.getItem(configKey) as Mode | undefined) ?? 'normal';
 
     function click(): void {
       optionUIs.find('a').removeClass('focus');
