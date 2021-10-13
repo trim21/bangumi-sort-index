@@ -28,11 +28,6 @@ const webpackConfig = {
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
-          options: {
-            cacheDirectory: true,
-            cacheCompression: false,
-            presets: [['@babel/preset-typescript']],
-          },
         },
         resolve: {
           fullySpecified: false,
