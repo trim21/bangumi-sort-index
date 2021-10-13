@@ -3,7 +3,7 @@
 // @name:zh       排序首页条目
 // @namespace     https://trim21.me/
 // @description   Sort subjects on index page
-// @version       0.0.4
+// @version       0.0.5
 // @author        Trim21 <i@trim21.me>
 // @source        https://github.com/Trim21/bangumi-sort-index
 // @supportURL    https://github.com/Trim21/bangumi-sort-index/issues
@@ -45,7 +45,7 @@ function bangumiSortIndex() {
         this.nextDate = 0;
       }
 
-      this.airing = el.find('li a.epBtnNA').length !== 0 ? -1 : 1;
+      this.airing = el.find('li a.epBtnNA, li a.epBtnToday').length !== 0 ? -1 : 1;
     }
 
   }
