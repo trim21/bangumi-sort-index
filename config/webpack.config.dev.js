@@ -23,7 +23,7 @@ const cfg = merge(webpackConfig, {
     filename: `${metadata.name}.[name].user.js`,
     path: path.resolve(__dirname, '../dist'),
   },
-  devtool: 'inline-source-map',
+  devtool: 'eval-source-map',
   watch: true,
   watchOptions: {
     ignored: /node_modules/,
