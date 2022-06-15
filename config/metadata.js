@@ -1,12 +1,12 @@
 const { author, description, dependencies, name, repository, version } = require('../package.json');
 
 module.exports = {
-  name: name,
+  name,
   'name:zh': '排序首页条目',
   namespace: 'https://trim21.me/',
   description,
-  version: version,
-  author: author,
+  version,
+  author,
   source: repository.url,
   supportURL: repository.url + '/issues',
   license: 'MIT',
