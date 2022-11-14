@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         with:
           path: ./node_modules
           key: node-${{ matrix.node-version }}-${{ hashFiles('yarn.lock') }}
@@ -57,7 +57,7 @@ jobs:
         with:
           node-version: 14
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         with:
           path: ./node_modules
           key: node-14-${{ hashFiles('yarn.lock') }}
