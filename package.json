@@ -33,7 +33,7 @@
     "url": "https://github.com/Trim21/bangumi-sort-index"
   },
   "dependencies": {
-    "jquery": "3.6.3"
+    "jquery": "3.6.4"
   },
   "lint-staged": {
     "*.{cjs,js,ts,json,yml,yaml}": "prettier --write",
