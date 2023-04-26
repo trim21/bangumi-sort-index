@@ -1,7 +1,7 @@
 const path = require('path');
 
 const { merge } = require('webpack-merge');
-const UserScriptMetaDataPlugin = require('userscript-metadata-webpack-plugin');
+const { UserScriptMetaDataPlugin } = require('userscript-metadata-webpack-plugin');
 const LiveReloadPlugin = require('webpack-livereload-plugin');
 
 const metadata = require('./metadata');
